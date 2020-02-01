@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row_surah"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/quran_border_image" />
+
+        <TextView
+            android:textColor="#FFD700"
+            android:gravity="center"
+            android:layout_marginRight="15dp"
+            android:text="1"
+            android:textSize="20sp"
+            android:id="@+id/surah_id"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+    </RelativeLayout>
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="#7b8028"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:text="আল ফাতিহা"
+                android:id="@+id/surahName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="#7b8028"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:text="সূচনা"
+                android:id="@+id/surah_bangla_meaning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:textColor="#3E523E"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"
+            android:textSize="27sp"
+            android:text="الفاتحة"
+            android:id="@+id/sura_name_arabic"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

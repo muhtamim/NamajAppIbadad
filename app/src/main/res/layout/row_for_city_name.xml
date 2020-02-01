@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cityNameId"
+            android:text="1"
+            android:textColor="#ffffff"
+            android:textSize="17sp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cityNameView"
+            android:text="Barishal"
+            android:layout_alignParentRight="true"
+            android:textColor="#ffffff"
+            android:textSize="17sp"
+            android:gravity="left"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

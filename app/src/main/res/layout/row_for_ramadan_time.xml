@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/ramadanDate"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:text="17  মে"
+            android:textSize="17sp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:id="@+id/ramadanDay"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:text="বৃহস্পতিবার"
+            android:textSize="17sp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:id="@+id/ramadanSehri"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:text="03:55 am"
+            android:textSize="17sp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:id="@+id/ramadanIftar"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:text="06:33 pm"
+            android:textSize="17sp"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+    <!--<TextView-->
+        <!--android:visibility="visible"-->
+        <!--android:id="@+id/empty"-->
+        <!--android:gravity="center"-->
+        <!--android:fontFamily="sans-serif-condensed"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="Empty"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textColor="#e63232"/>-->
+
+</LinearLayout>

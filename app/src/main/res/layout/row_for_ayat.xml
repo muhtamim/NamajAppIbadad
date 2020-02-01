@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/bookPageColor"
+    android:id="@+id/row_ayat">
+
+    <RelativeLayout
+        android:id="@+id/paraView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/triangle_shape"/>
+
+        <TextView
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:id="@+id/paraAndPageNo"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:text="30/610"
+            android:textSize="17sp"
+            android:rotation="-45"
+            android:textColor="#FFD700"/>
+
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@+id/paraAndPageNo"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:textColor="#3E523E"
+            android:gravity="right"
+            android:id="@+id/arabicView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ ﴿۱﴾"
+            android:textSize="17sp"/>
+
+    </RelativeLayout>
+
+    <!--- Bangla spelling row -->
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/quran_border_image" />
+
+            <TextView
+                android:textColor="#FFD700"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="13sp"
+                android:id="@+id/surah_id"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_gravity="center"
+            android:textColor="#7b8028"
+            android:id="@+id/spellingViewBangla"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="বিছমিল্লাহির রাহমানির রাহিম।"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+    <!--- Bangla Translate Row -->
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/quran_border_image" />
+
+            <TextView
+                android:id="@+id/suraBnTranslateid"
+                android:textColor="#FFD700"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="13sp"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_gravity="center"
+            android:textColor="#7b8028"
+            android:id="@+id/banglaTranslated"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/bookmark"
+            android:visibility="gone"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last read !"
+            android:textColor="#de1b1b"
+            android:textSize="23sp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

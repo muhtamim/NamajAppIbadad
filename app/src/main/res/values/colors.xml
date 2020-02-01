@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#196e13</color>
+    <color name="colorPrimaryDark">#009000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bookPageColor">#fffdd0</color>
+    <color name="offWhitePageColor">#fffee4</color>
+    <color name="red">#aae265</color>
+    <color name="colorBackground">#de2e2e</color>
+
+    <color name="gradient_start_color">#4c84ff</color>
+    <color name="gradient_end_color">#18a3fe</color>
+
+
+    <!-- colors for tab and screent text -->
+
+    <color name="tab_indicator_gray">#782f2f</color>
+    <color name="intro_title_color">#000000</color>
+    <color name="intro_description_color">#656565</color>
+
+</resources>

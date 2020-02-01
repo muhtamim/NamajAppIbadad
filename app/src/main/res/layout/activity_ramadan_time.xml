@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:id="@+id/idTvDateHomeRamdan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:text="Time"
+        android:textColor="#FFF"
+        android:layout_marginTop="5dp" />
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/idTvDateHomeRamdan"
+        android:layout_marginTop="10dp"
+        android:id="@+id/parentlayout"
+        android:layout_marginBottom="10dp">
+
+        <!--<android.support.v7.widget.RecyclerView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/ramadanRecyclerView"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:divider="@android:color/transparent"-->
+            <!--android:dividerHeight="5dp" />-->
+
+        <FrameLayout
+            android:layout_below="@+id/parentlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/division_fragment"
+            tools:ignore="NotSibling" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

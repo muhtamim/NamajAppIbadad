@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ইবাদত</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aoujubillah">أعوذ بالله من الشيطان الرجيمِ</string>
+    <string name="sdefault">Default</string>
+    <string name="fajr">Fajar</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="dhuhr">Dhuhaar</string>
+    <string name="asr">Asar</string>
+    <string name="maghrib">Maghrib</string>
+    <string name="ishaa">Ishaa</string>
+    <string name="next_fajr">Next Fajar</string>
+    <string name="bn_start">শুরু করতে এখানে চাপুন</string>
+    <string name="information_text">আল্লাহ পছন্দ করেন এমন যেকোন কথা বা কাজ করাকে ইবাদত বলে।আপনাদের প্রতিটি দিনই হোক ঈমানী দৃঢ়তায় পরিপুর্ণ। এই কামনাই থাকলো। ফি-আমানিল্লাহ!\n\nThis Application Develop By Odbhut\n\nVersion: 2.2\nEmail:odbhut.online@gmail.com</string>
+</resources>
